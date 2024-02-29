@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "img": "./font/faBaseballBall.png",
+        "name": "fa/FaBaseballBall",
+        "import": "import { FaBaseballBall } from 'react-icons/fa'",
+        "tag": "<FaBaseballBall />"
+    },
+    {
+        "id": 2,
+        "img": "./font/faFaAddressCard.png",
+        "name": "fa/FaAddressCard",
+        "import": "import { FaAddressCard } from 'react-icons/fa'",
+        "tag": "<FaAddressCard />"
+    },
+    {
+        "id": 3,
+        "img": "./font/faFaAirbnb.png",
+        "name": "fa/FaAirbnb",
+        "import": "import { FaAirbnb  } from 'react-icons/fa'",
+        "tag": "<FaAirbnb  />"
+    }, 
+    {
+        "id": 4,
+        "img": "./font/faFaAndroid.png",
+        "name": "fa/FaAndroid",
+        "import": "import { FaAndroid } from 'react-icons/fa'",
+        "tag": "<FaAndroid />"
+    },
+    {
+        "id": 5,
+        "img": "./font/faFaApple.png",
+        "name": "fa/FaApple",
+        "import": "import { faFaChat } from 'react-icons/fa'",
+        "tag": "<FaChat />"
+    }, 
+    {
+        "id": 6,
+        "img": "./font/faFaArchway.png",
+        "name": "fa/FaArchway",
+        "import": "import { FaArchway } from 'react-icons/fa'",
+        "tag": "<FaArchway />"
+    }, 
+    {
+        "id": 7,
+        "img": "./font/faFaBellSlash.png",
+        "name": "fa/FaBellSlash",
+        "import": "import { FaBellSlash } from 'react-icons/fa'",
+        "tag": "<FaBellSlash />"
+    }, 
+    {
+        "id": 8,
+        "img": "./font/faFaCar.png",
+        "name": "fa/FaCar",
+        "import": "import { FaCar } from 'react-icons/fa'",
+        "tag": "<FaCar />"
+    }, 
+    {
+        "id": 9,
+        "img": "./font/faFaCcVisa.png",
+        "name": "fa/FaCCVisa",
+        "import": "import { FaCCVisa } from 'react-icons/fa'",
+        "tag": "<FaCCVisa />"
+    }, 
+    {
+        "id": 10,
+        "img": "./font/faFaDropbox.png",
+        "name": "fa/FaDropBox",
+        "import": "import { FaDropBox } from 'react-icons/fa'",
+        "tag": "<FaDropBox />"
+    }, 
+    {
+        "id": 11,
+        "img": "./font/faFaGift.png",
+        "name": "fa/FaGift",
+        "import": "import { FaGift } from 'react-icons/fa'",
+        "tag": "<FaGift />"
+    }, 
+    {
+        "id": 12,
+        "img": "./font/faFaGlassMartini.png",
+        "name": "fa/FaGlassMartini",
+        "import": "import { FaGlassMartini } from 'react-icons/fa'",
+        "tag": "<FaGlassMartini />"
+    }, 
+    {
+        "id": 13,
+        "img": "./font/faFaHandHoldingHeart.png",
+        "name": "fa/FaHandHoldingHeart",
+        "import": "import { FaHandHoldingHeart } from 'react-icons/fa'",
+        "tag": "<FaHandHoldingHeart />"
+    }, 
+    {
+        "id": 14,
+        "img": "./font/faFaHeart.png",
+        "name": "fa/FaHeart",
+        "import": "import { FaHeart } from 'react-icons/fa'",
+        "tag": "<FaHeart />"
+    }, 
+    {
+        "id": 15,
+        "img": "./font/faFaMoon.png",
+        "name": "fa/FaMoon",
+        "import": "import { FaMoon } from 'react-icons/fa'",
+        "tag": "<FaMoon />"
+    }, 
+    {
+        "id": 16,
+        "img": "./font/faFaNewspaper.png",
+        "name": "fa/FaNewspaper",
+        "import": "import { FaNewspaper } from 'react-icons/fa'",
+        "tag": "<FaNewspaper />"
+    },    {
+        "id": 17,
+        "img": "./font/faFaPlane.png",
+        "name": "fa/FaPlane",
+        "import": "import { FaPlane } from 'react-icons/fa'",
+        "tag": "<FaPlane />"
+    },
+    {
+        "id": 18,
+        "img": "./font/faFaPrint.png",
+        "name": "fa/FaPrint",
+        "import": "import { FaPrint } from 'react-icons/fa'",
+        "tag": "<FaPrint />"
+    },
+    {
+        "id": 19,
+        "img": "./font/faFaPrint.png",
+        "name": "fa/FaPrint",
+        "import": "import { FaPrint } from 'react-icons/fa'",
+        "tag": "<FaPrint />"
+    },
+    {
+        "id": 20,
+        "img": "./font/faFaSignal.png",
+        "name": "fa/FaSignal",
+        "import": "import { FaSignal } from 'react-icons/fa'",
+        "tag": "<FaSignal />"
+    },
+    {
+        "id": 21,
+        "img": "./font/faFaSplotch.png",
+        "name": "fa/FaSplotch",
+        "import": "import { FaSplotch } from 'react-icons/fa'",
+        "tag": "<FaSplotch />"
+    },
+    {
+        "id": 22,
+        "img": "./font/faFaStar.png",
+        "name": "fa/FaStar",
+        "import": "import { FaStar } from 'react-icons/fa'",
+        "tag": "<FaStar />"
+    },
+    {
+        "id": 23,
+        "img": "./font/faFaStickyNote.png",
+        "name": "fa/FaStickyNote",
+        "import": "import { FaStickyNote } from 'react-icons/fa'",
+        "tag": "<FaStickyNote />"
+    },
+    {
+        "id": 24,
+        "img": "./font/faFaTag.png",
+        "name": "fa/FaTag",
+        "import": "import { FaTag } from 'react-icons/fa'",
+        "tag": "<FaTag />"
+    },
+    {
+        "id": 25,
+        "img": "./font/faFaTasks.png",
+        "name": "fa/FaTasks",
+        "import": "import { FaTasks } from 'react-icons/fa'",
+        "tag": "<FaTasks />"
+    },
+    {
+        "id": 26,
+        "img": "./font/faFaTint.png",
+        "name": "fa/FaTint",
+        "import": "import { FaTint } from 'react-icons/fa'",
+        "tag": "<FaTint />"
+    },
+    {
+        "id": 27,
+        "img": "./font/faFaTrash.png",
+        "name": "fa/FaTrash",
+        "import": "import { FaTrash } from 'react-icons/fa'",
+        "tag": "<FaTrash />"
+    },
+    {
+        "id": 28,
+        "img": "./font/faFaTrophy.png",
+        "name": "fa/FaTrophy",
+        "import": "import { FaTrophy } from 'react-icons/fa'",
+        "tag": "<FaTrophy />"
+    },
+    {
+        "id": 29,
+        "img": "./font/faFaUserCircle.png",
+        "name": "fa/FaUserCircle",
+        "import": "import { FaUserCircle } from 'react-icons/fa'",
+        "tag": "<FaUserCircle />"
+    },
+    {
+        "id": 30,
+        "img": "./font/faFaVideo.png",
+        "name": "fa/FaVideo",
+        "import": "import { FaVideo } from 'react-icons/fa'",
+        "tag": "<FaVideo />"
+    }
+
+]

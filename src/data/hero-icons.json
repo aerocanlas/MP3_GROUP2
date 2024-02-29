@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "img": "./images/HiAcademicCap.png",
+        "name": "hi/HiAcademicCap",
+        "import": "import { HiAcademicCap } from 'react-icons/hi'",
+        "tag": "<HiAcademicCap />"
+    },
+    {
+        "id": 2,
+        "img": "./images/HiArchive.png",
+        "name": "hi/HiArchive",
+        "import": "import { HiArchive } from 'react-icons/hi'",
+        "tag": "<HiArchive />"
+    },
+    {
+        "id": 3,
+        "img": "./images/HiArrowCircleLeft.png",
+        "name": "hi/HiArrowCircleLeft",
+        "import": "import { HiArrowCircleLeft } from 'react-icons/hi'",
+        "tag": "<HiArrowCircleLeft />"
+    }, 
+    {
+        "id": 4,
+        "img": "./images/HiCamera.png",
+        "name": "hi/HiCamera",
+        "import": "import { HiCamera } from 'react-icons/hi'",
+        "tag": "<HiCamera />"
+    }, 
+    {
+        "id": 5,
+        "img": "./images/HiChat.png",
+        "name": "hi/HiChat",
+        "import": "import { HiChat } from 'react-icons/hi'",
+        "tag": "<HiChat />"
+    }, 
+    {
+        "id": 6,
+        "img": "./images/HiCheck.png",
+        "name": "hi/HiCheck",
+        "import": "import { HiCheck } from 'react-icons/hi'",
+        "tag": "<HiCheck />"
+    }, 
+    {
+        "id": 7,
+        "img": "./images/HiClipboardList.png",
+        "name": "hi/HiClipboardList",
+        "import": "import { HiClipboardList } from 'react-icons/hi'",
+        "tag": "<HiClipboardList />"
+    }, 
+    {
+        "id": 8,
+        "img": "./images/HiCode.png",
+        "name": "hi/HiCode",
+        "import": "import { HiCode } from 'react-icons/hi'",
+        "tag": "<HiCode />"
+    }, 
+    {
+        "id": 9,
+        "img": "./images/HiCog.png",
+        "name": "hi/HiCog",
+        "import": "import { HiCog } from 'react-icons/hi'",
+        "tag": "<HiCog />"
+    }, 
+    {
+        "id": 10,
+        "img": "./images/HiCreditCard.png",
+        "name": "hi/HiCreditCard",
+        "import": "import { HiCreditCard } from 'react-icons/hi'",
+        "tag": "<HiCreditCard />"
+    }, 
+    {
+        "id": 11,
+        "img": "./images/HiDocumentSearch.png",
+        "name": "hi/HiDocumentSearch",
+        "import": "import { HiDocumentSearch } from 'react-icons/hi'",
+        "tag": "<HiDocumentSearch />"
+    }, 
+    {
+        "id": 12,
+        "img": "./images/HiEmojiHappy.png",
+        "name": "hi/HiEmojiHappy",
+        "import": "import { HiEmojiHappy } from 'react-icons/hi'",
+        "tag": "<HiEmojiHappy />"
+    }, 
+    {
+        "id": 13,
+        "img": "./images/HiExclamation.png",
+        "name": "hi/HiExclamation",
+        "import": "import { HiExclamation } from 'react-icons/hi'",
+        "tag": "<HiExclamation />"
+    }, 
+    {
+        "id": 14,
+        "img": "./images/HiFlag.png",
+        "name": "hi/HiFlag",
+        "import": "import { HiFlag } from 'react-icons/hi'",
+        "tag": "<HiFlag />"
+    }, 
+    {
+        "id": 15,
+        "img": "./images/HiInformationCircle.png",
+        "name": "hi/HiInformationCircle",
+        "import": "import { HiInformationCircle } from 'react-icons/hi'",
+        "tag": "<HiInformationCircle />"
+    }, 
+    {
+        "id": 16,
+        "img": "./images/HiMail.png",
+        "name": "hi/HiMail",
+        "import": "import { HiMail } from 'react-icons/hi'",
+        "tag": "<HiMail />"
+    },    {
+        "id": 17,
+        "img": "./images/HiMicrophone.png",
+        "name": "hi/HiMicrophone",
+        "import": "import { HiMicrophone } from 'react-icons/hi'",
+        "tag": "<HiMicrophone />"
+    },
+    {
+        "id": 18,
+        "img": "./images/HiOutlineAtSymbol.png",
+        "name": "hi/HiOutlineAtSymbol",
+        "import": "import { HiOutlineAtSymbol } from 'react-icons/hi'",
+        "tag": "<HiOutlineAtSymbol />"
+    },
+    {
+        "id": 19,
+        "img": "./images/HiOutlineBan.png",
+        "name": "hi/HiOutlineBan",
+        "import": "import { HiOutlineBan } from 'react-icons/hi'",
+        "tag": "<HiOutlineBan />"
+    },
+    {
+        "id": 20,
+        "img": "./images/HiOutlineCalculator.png",
+        "name": "hi/HiOutlineCalculator",
+        "import": "import { HiOutlineCalculator } from 'react-icons/hi'",
+        "tag": "<HiOutlineCalculator />"
+    },
+    {
+        "id": 21,
+        "img": "./images/HiOutlineClipboardCheck.png",
+        "name": "hi/HiOutlineClipboardCheck",
+        "import": "import { HiOutlineCalculator } from 'react-icons/hi'",
+        "tag": "<HiOutlineCalculator />"
+    },
+    {
+        "id": 22,
+        "img": "./images/HiFire.png",
+        "name": "hi/HiFire",
+        "import": "import { HiFire } from 'react-icons/hi'",
+        "tag": "<HiFire />"
+    },
+    {
+        "id": 23,
+        "img": "./images/HiOutlineLink.png",
+        "name": "hi/HiOutlineLink",
+        "import": "import { HiOutlineLink } from 'react-icons/hi'",
+        "tag": "<HiOutlineLink />"
+    },
+    {
+        "id": 24,
+        "img": "./images/HiOutlineLockOpen.png",
+        "name": "hi/HiOutlineLockOpen",
+        "import": "import { HiOutlineLockOpen } from 'react-icons/hi'",
+        "tag": "<HiOutlineLockOpen />"
+    },
+    {
+        "id": 25,
+        "img": "./images/HiOutlineMap.png",
+        "name": "hi/HiOutlineMap",
+        "import": "import { HiOutlineMap } from 'react-icons/hi'",
+        "tag": "<HiOutlineMap />"
+    },
+    {
+        "id": 26,
+        "img": "./images/HiOutlineShoppingCart.png",
+        "name": "hi/HiOutlineShoppingCart",
+        "import": "import { HiOutlineShoppingCart } from 'react-icons/hi'",
+        "tag": "<HiOutlineShoppingCart />"
+    },
+    {
+        "id": 27,
+        "img": "./images/HiOutlineTrash.png",
+        "name": "hi/HiOutlineTrash",
+        "import": "import { HiOutlineTrash } from 'react-icons/hi'",
+        "tag": "<HiOutlineTrash />"
+    },
+    {
+        "id": 28,
+        "img": "./images/HiPause.png",
+        "name": "hi/HiPause",
+        "import": "import { HiPause } from 'react-icons/hi'",
+        "tag": "<HiPause />"
+    },
+    {
+        "id": 29,
+        "img": "./images/HiUserCircle.png",
+        "name": "hi/HiUserCircle",
+        "import": "import { HiUserCircle } from 'react-icons/hi'",
+        "tag": "<HiUserCircle />"
+    },
+    {
+        "id": 30,
+        "img": "./images/HiVolumeUp.png",
+        "name": "hi/HiVolumeUp",
+        "import": "import { HiVolumeUp } from 'react-icons/hi'",
+        "tag": "<HiVolumeUp />"
+    }
+
+]

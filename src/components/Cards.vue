@@ -1,21 +1,35 @@
 <script setup>
 
 import { ref, defineProps } from 'vue';
-import Modal from './Modal.vue';
 const { icon } = defineProps(['icon'])
 const showModal = ref(false)
+import Swal from 'sweetalert2';
+
+
+const copyToClipboard = (text) => {
+      navigator.clipboard.writeText(text).then(() => {
+        Swal.fire({
+  title: "Success",
+  text: "Copied to clipboard",
+  icon: "success"
+});
+      }).catch(err => {
+        console.error('Failed to copy: ', err);
+      });
+    };
 
 </script>
 
-<template>  
+<template>
+
   <div v-if="showModal" class="overlay">
       <div class="modal">
         <div class="card-modal" >
         <img :src='icon.img' />
         <div class="card-text">
           <h2> {{icon.name}}</h2>
-          <h2> {{icon.import}}</h2>
-          <h2> {{icon.tag}}</h2>
+          <h2 @click="copyToClipboard(icon.import)" style="cursor: pointer;">{{ icon.import }}</h2>
+          <h2 @click="copyToClipboard(icon.tag)" style="cursor: pointer;"> {{icon.tag}}</h2>
         </div>
       </div>
         <button @click="showModal = false" class="close">Close</button>
@@ -25,23 +39,136 @@ const showModal = ref(false)
 
     <div class="card" @click="showModal = true">
         <img :src='icon.img' />
-        <div class="card-text">
-          <h2> {{icon.name}}</h2>
+<div class="card-content">
+  <div class="card-title">
+          <h2> {{icon.name}} </h2>
         </div>
+</div>
       </div>
 </template>
 
 <style scoped>
 
 .card {
-  width: calc(25% - 20px);
-  margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  border-radius: 8px;
+  color: white;
   overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
   cursor: pointer;
-  margin-top: 20px;
+  margin: 30px auto;
 }
+
+.card-content {
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.card-content .card-title {
+  position: absolute;
+  top: 50px;
+  font-size: 12px;
+  font-weight: 700;
+  color: inherit;
+  text-transform: none;
+}
+
+.card-content .card-para {
+  color: inherit;
+  opacity: 0.8;
+  font-size: 12px;
+}
+
+.card:hover {
+  transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  z-index: 1;
+}
+
+.card:hover:before {
+  transform: translateX(-100%);
+}
+
+.card:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  z-index: 1;
+}
+
+.card:hover:after {
+  transform: translateX(100%);
+}
+
+
+.blob {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  opacity: 1;
+  filter: blur(12px);
+  animation: blob-bounce 5s infinite ease;
+}
+
+@keyframes blob-bounce {
+  0% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+  }
+
+  50% {
+    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+  }
+
+  75% {
+    transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+  }
+
+  100% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+}
+
+
 .card img {
   width: 100%;
   height: auto;
@@ -53,6 +180,7 @@ const showModal = ref(false)
   font-weight: bold;
   text-align: center;
   font-size: 16px;
+  text-transform: none;
 }
 
 .overlay {
@@ -73,22 +201,13 @@ const showModal = ref(false)
   border-radius: 10px;
   padding: 30px;
   position: fixed;
-  top: 50%; /* Place the top of the modal at the vertical center of the window */
-  left: 50%; /* Place the left edge of the modal at the horizontal center of the window */
-  transform: translate(-50%, -50%); /* Use transform to center the modal precisely */
-  
+  top: 300px;
   display: flex;
   flex-direction: column;
 }
 
-.modal img {
-  display: block;
-  margin: 0 auto; /* Center horizontally */
-}
-img {
-  display: block;
-  align-items: center;
-  justify-content: center;
+.card-modal img {
+  margin-left: 70px;
 }
 
 .modal button {
@@ -97,15 +216,19 @@ img {
   width: 100%;
   background-color: cadetblue;
   border: none;
-  color: rgb(255, 255, 255);
+  color: black;
   cursor: pointer;
   margin-top: 5px;
-  font-weight: bold;
+  border-radius: 10px;
 }
 
 .modal .close {
-  background-color: rgb(255, 34, 78);
+  background-color: crimson;
   margin-top: 8px;
+  transition: 0.3s all ease-in;
+}
+.modal .close:hover {
+  color: white;
 }
 
 .cards-container {

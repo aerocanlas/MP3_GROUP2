@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "img": "./flat/fcFcAbout.png",
+        "name": "fc/FcAbout",
+        "import": "import { FcAbout } from 'react-icons/fc'",
+        "tag": "<FcAbout />"
+    },
+    {
+        "id": 2,
+        "img": "./flat/fcFcAddressBook.png",
+        "name": "fc/FcAddressBook",
+        "import": "import { FcAddressBook } from 'react-icons/fc'",
+        "tag": "<FcAddressBook />"
+    },
+    {
+        "id": 3,
+        "img": "./flat/fcFcApproval.png",
+        "name": "fc/FcApproval",
+        "import": "import { FcApproval } from 'react-icons/fc'",
+        "tag": "<FcApproval />"
+    }, 
+    {
+        "id": 4,
+        "img": "./flat/fcFcAudioFile.png",
+        "name": "fc/FcAudioFile",
+        "import": "import { FcAudioFile } from 'react-icons/fc'",
+        "tag": "<FcAudioFile />"
+    },
+    {
+        "id": 5,
+        "img": "./flat/fcFcAutomotive.png",
+        "name": "fc/FcAutomotive",
+        "import": "import { FcAutomotive } from 'react-icons/fc'",
+        "tag": "<FcAutomotive />"
+    }, 
+    {
+        "id": 6,
+        "img": "./flat/fcFcBiotech.png",
+        "name": "fc/FcBiotech",
+        "import": "import { FcBiotech } from 'react-icons/fc'",
+        "tag": "<FcBiotech />"
+    }, 
+    {
+        "id": 7,
+        "img": "./flat/fcFcBookmark.png",
+        "name": "fc/FcBookmark",
+        "import": "import { FcBookmark } from 'react-icons/fc'",
+        "tag": "<FcBookmark />"
+    }, 
+    {
+        "id": 8,
+        "img": "./flat/fcFcBriefcase.png",
+        "name": "fc/FcBriefcase",
+        "import": "import { FcBriefcase } from 'react-icons/fc'",
+        "tag": "<FcBriefcase />"
+    }, 
+    {
+        "id": 9,
+        "img": "./flat/fcFcBusinessContact.png",
+        "name": "fc/FcBusinessContact",
+        "import": "import { FcBusinessContact } from 'react-icons/fc'",
+        "tag": "<FcBusinessContact />"
+    }, 
+    {
+        "id": 10,
+        "img": "./flat/fcFcCancel.png",
+        "name": "fc/FcCancel",
+        "import": "import { FcCancel } from 'react-icons/fc'",
+        "tag": "<FcCancel />"
+    }, 
+    {
+        "id": 11,
+        "img": "./flat/fcFcVideoProjector.png",
+        "name": "fc/FcVideoProjector",
+        "import": "import { FcVideoProjector } from 'react-icons/fc'",
+        "tag": "<FcVideoProjector />"
+    }, 
+    {
+        "id": 12,
+        "img": "./flat/fcFcCopyright.png",
+        "name": "fc/FcCopyright",
+        "import": "import { FcCopyright } from 'react-icons/fc'",
+        "tag": "<FcCopyright />"
+    }, 
+    {
+        "id": 13,
+        "img": "./flat/fcFcElectricity.png",
+        "name": "fc/FcElectricity",
+        "import": "import { FcElectricity } from 'react-icons/fc'",
+        "tag": "<FcElectricity />"
+    }, 
+    {
+        "id": 14,
+        "img": "./flat/fcFcWifiLogo.png",
+        "name": "fc/FcWifiLogo",
+        "import": "import { FcWifiLogo } from 'react-icons/fc'",
+        "tag": "<FcWifiLogo />"
+    }, 
+    {
+        "id": 15,
+        "img": "./flat/fcFcFlashOn.png",
+        "name": "fc/FcFlashOn",
+        "import": "import { FcFlashOn } from 'react-icons/fc'",
+        "tag": "<FcFlashOn />"
+    }, 
+    {
+        "id": 16,
+        "img": "./flat/fcFcLink.png",
+        "name": "fc/FcLink",
+        "import": "import { FcLink } from 'react-icons/fc'",
+        "tag": "<FcLink />"
+    },    {
+        "id": 17,
+        "img": "./flat/fcFcLowBattery.png",
+        "name": "fc/FcLowBattery",
+        "import": "import { FcLowBattery } from 'react-icons/fc'",
+        "tag": "<FcLowBattery />"
+    },
+    {
+        "id": 18,
+        "img": "./flat/fcFcMms.png",
+        "name": "fc/FcMms",
+        "import": "import { FcMms } from 'react-icons/fc'",
+        "tag": "<FcMms />"
+    },
+    {
+        "id": 19,
+        "img": "./flat/fcFcNoVideo.png",
+        "name": "fc/FcNoVideo",
+        "import": "import { FcNoVideo } from 'react-icons/fc'",
+        "tag": "<FcNoVideo />"
+    },
+    {
+        "id": 20,
+        "img": "./flat/fcFcPlanner.png",
+        "name": "fc/FcPlanner",
+        "import": "import { FcPlanner } from 'react-icons/fc'",
+        "tag": "<FcPlanner />"
+    },
+    {
+        "id": 21,
+        "img": "./flat/fcFcPlus.png",
+        "name": "fc/FcPlus",
+        "import": "import { FcPlus } from 'react-icons/fc'",
+        "tag": "<FcPlus />"
+    },
+    {
+        "id": 22,
+        "img": "./flat/fcFcPrivacy.png",
+        "name": "fc/FcPrivacy",
+        "import": "import { FcPrivacy } from 'react-icons/fc'",
+        "tag": "<FcPrivacy />"
+    },
+    {
+        "id": 23,
+        "img": "./flat/fcFcPuzzle.png",
+        "name": "fc/FcPuzzle",
+        "import": "import { FcPuzzle } from 'react-icons/fc'",
+        "tag": "<FcPuzzle />"
+    },
+    {
+        "id": 24,
+        "img": "./flat/fcFcRotateCamera.png",
+        "name": "fc/FcRotateCamera",
+        "import": "import { FcRotateCamera } from 'react-icons/fc'",
+        "tag": "<FcRotateCamera />"
+    },
+    {
+        "id": 25,
+        "img": "./flat/fcFcSafe.png",
+        "name": "fc/FcSafe",
+        "import": "import { FcSafe } from 'react-icons/fc'",
+        "tag": "<FcSafe />"
+    },
+    {
+        "id": 26,
+        "img": "./flat/fcFcSearch.png",
+        "name": "fc/FcSearch",
+        "import": "import { FcSearch } from 'react-icons/fc'",
+        "tag": "<FcSearch />"
+    },
+    {
+        "id": 27,
+        "img": "./flat/fcFcSelfie.png",
+        "name": "fc/FcSelfie",
+        "import": "import { FcSelfie } from 'react-icons/fc'",
+        "tag": "<FcSelfie />"
+    },
+    {
+        "id": 28,
+        "img": "./flat/fcFcSelfServiceKiosk.png",
+        "name": "fc/FcSelgServiceKiosk",
+        "import": "import { FcSelgServiceKiosk } from 'react-icons/fc'",
+        "tag": "<FcSelgServiceKiosk />"
+    },
+    {
+        "id": 29,
+        "img": "./flat/fcFcShipped.png",
+        "name": "fc/FcShipped",
+        "import": "import { FcShipped } from 'react-icons/fc'",
+        "tag": "<FcShipped />"
+    },
+    {
+        "id": 30,
+        "img": "./flat/fcFcUpload.png",
+        "name": "fc/FcUpload",
+        "import": "import { FcUpload } from 'react-icons/fc'",
+        "tag": "<FcUpload />"
+    }
+
+]
