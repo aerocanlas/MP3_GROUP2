@@ -97,9 +97,10 @@ img {
   width: 100%;
   background-color: cadetblue;
   border: none;
-  color: black;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   margin-top: 5px;
+  font-weight: bold;
 }
 
 .modal .close {
