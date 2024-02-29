@@ -73,11 +73,18 @@ const showModal = ref(false)
   border-radius: 10px;
   padding: 30px;
   position: fixed;
-  top: 300px;
+  top: 50%; /* Place the top of the modal at the vertical center of the window */
+  left: 50%; /* Place the left edge of the modal at the horizontal center of the window */
+  transform: translate(-50%, -50%); /* Use transform to center the modal precisely */
+  
   display: flex;
   flex-direction: column;
 }
 
+.modal img {
+  display: block;
+  margin: 0 auto; /* Center horizontally */
+}
 img {
   display: block;
   align-items: center;
@@ -96,7 +103,7 @@ img {
 }
 
 .modal .close {
-  background-color: crimson;
+  background-color: rgb(255, 34, 78);
   margin-top: 8px;
 }
 
