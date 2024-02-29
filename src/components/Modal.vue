@@ -1,19 +1,18 @@
 <script setup>
 
 import { ref, defineProps } from 'vue';
-import Modal from './Modal.vue';
+
 const { icon } = defineProps(['icon'])
 const showModal = ref(false)
 
 </script>
 
-<template>  
-  <div v-if="showModal" class="overlay">
+<template>
+    <div v-if="showModal" class="overlay">
       <div class="modal">
         <div class="card" >
         <img :src='icon.img' />
         <div class="card-text">
-          <h2> {{icon.name}}</h2>
           <h2> {{icon.import}}</h2>
         </div>
       </div>
@@ -21,13 +20,6 @@ const showModal = ref(false)
       </div>
     </div>
 
-
-    <div class="card" @click="showModal = true">
-        <img :src='icon.img' />
-        <div class="card-text">
-          <h2> {{icon.name}}</h2>
-        </div>
-      </div>
 </template>
 
 <style scoped>
@@ -56,14 +48,13 @@ const showModal = ref(false)
 
 .overlay {
   position: absolute;
-  left: 0px;
-  width: 100vw;
-  height: 100vw;
+  width: 100%;
+  height: 100%;
   background-color: rgb(0, 0, 0, 0.5);
   z-index: 10;
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .modal {
@@ -71,8 +62,7 @@ const showModal = ref(false)
   background-color: white;
   border-radius: 10px;
   padding: 30px;
-  position: absolute;
-  top: 100px;
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -104,7 +94,7 @@ const showModal = ref(false)
   margin: 0 auto;
 }
 
-.screen {
+main {
   width: 100vw;
   height: 100vh;
 }

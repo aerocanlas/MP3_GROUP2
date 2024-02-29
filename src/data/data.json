@@ -3,12 +3,14 @@
     {
         "id": 1,
         "img": "./images/HiAcademicCap.png",
-        "name": "hi/HiAcademicCap"
+        "name": "hi/HiAcademicCap",
+        "import": "import { HiAcademicCap } from 'react-icons/hi'"
     },
     {
         "id": 2,
         "img": "./images/HiArchive.png",
-        "name": "hi/HiArchive"
+        "name": "hi/HiArchive",
+        "import": "import { HiAcademicCap } from 'react-icons/hi'"
     },
     {
         "id": 3,

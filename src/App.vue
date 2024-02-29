@@ -3,10 +3,11 @@
 import q from "./data/data.json";
 import { ref, watch } from "vue";
 import Cards from './components/Cards.vue'
+import { RouterLink } from 'vue-router'
 
 const icons = ref(q);
 const search = ref("");
-const showModal = ref(false);
+
 
 watch(search, () => {
   icons.value = q.filter(icon => icon.name.toLowerCase().includes(search.value.toLowerCase()))
@@ -19,6 +20,7 @@ watch(search, () => {
     <header>
       <h1>Icons Repository</h1>
       <input type="text" v-model.trim="search" placeholder="Search icons..." />
+      <Nav/>
     </header>
     
     <div class="options-container">
