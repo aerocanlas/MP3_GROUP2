@@ -10,11 +10,12 @@ const showModal = ref(false)
 <template>  
   <div v-if="showModal" class="overlay">
       <div class="modal">
-        <div class="card" >
+        <div class="card-modal" >
         <img :src='icon.img' />
         <div class="card-text">
           <h2> {{icon.name}}</h2>
           <h2> {{icon.import}}</h2>
+          <h2> {{icon.tag}}</h2>
         </div>
       </div>
         <button @click="showModal = false" class="close">Close</button>
@@ -71,10 +72,16 @@ const showModal = ref(false)
   background-color: white;
   border-radius: 10px;
   padding: 30px;
-  position: absolute;
-  top: 100px;
+  position: fixed;
+  top: 300px;
   display: flex;
   flex-direction: column;
+}
+
+img {
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal button {
